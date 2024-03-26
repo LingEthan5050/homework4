@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Website with Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .hero-section {
+      background-color: #007bff;
+      color: #fff;
+      padding: 50px 0;
+    }
+    .hero-section h1 {
+      font-size: 40px;
+    }
+    .card-header-bg {
+      background-color: #007bff;
+      color: #fff;
+    }
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Darren's Auto Detail Business</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Oil Change</a>
+            <a class="dropdown-item" href="#">Brake Replacement</a>
+            <a class="dropdown-item" href="#">Exterior</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="hero-section text-center">
+  <h1>Welcome to Our Enhanced Website</h1>
+  <p>This is a visually enhanced site with Bootstrap, featuring a hero section.</p>
+  <a href="#" class="btn btn-light">Learn More</a>
+</div>
+
+<div class="container py-5">
+  <h2>Our Services</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header card-header-bg">Oil Change</div>
+        <div class="card-body">
+          <p class="card-text">How often do I really need an oil change?
+            In the past, cars typically needed an oil change every 3,000 miles, but modern lubricants now allow for a much longer interval between services — from 5,000 to 7,500 miles and even up to 15,000 miles if your car uses full-synthetic motor oil.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header card-header-bg">Brake Replacement</div>
+        <div class="card-body">
+          <p class="card-text">As a general rule, you should get your brake pads replaced every 10,000 to 20,000 miles to keep wear to a minimum. When it comes to your rotors, you have a bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header card-header-bg">Exterior</div>
+        <div class="card-body">
+          <p class="card-text">It's not just about aesthetics; it's about preserving the longevity, safety, and value of your vehicle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    © 2024 Your Company. All rights reserved.
+  </div>
